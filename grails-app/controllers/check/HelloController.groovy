@@ -16,4 +16,8 @@ class HelloController {
 //        render helloService.greeting()
         render receipient +" from annotation"
     }
+
+    public void newChanges() {
+
+    }
 }
