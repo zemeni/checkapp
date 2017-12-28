@@ -2,7 +2,7 @@ package check
 
 import org.springframework.beans.factory.annotation.Value
 
-//this is a hello controller class
+//this is a new hello controller
 class HelloController {
 //    HelloService helloService
     @Value('${grails.gorm.reactor.events}')
@@ -15,9 +15,5 @@ class HelloController {
 //        render "Hello ${recipient} ${recipient2}"
 //        render helloService.greeting()
         render receipient +" from annotation"
-    }
-
-    public void newChanges() {
-
     }
 }
