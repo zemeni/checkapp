@@ -7,6 +7,7 @@ class HelloController {
     @Value('${grails.gorm.reactor.events}')
     String receipient
 //i want to create a patch
+    //this is second line
     def hello() {
         def recipient = grailsApplication.config.getProperty('grails.gorm.reactor.events',Integer,5)
         def recipient2 = grailsApplication.config.getProperty('grails.gorm.reactor.events',"default value")
